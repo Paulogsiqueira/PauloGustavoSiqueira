@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <!-- Link para acessar o CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+      <nav>
+        <ul>
+          <!-- Links para as diferentes partes  da página -->
+          <li><a href="#about">Sobre Mim</a></li>
+          <li><a href="#education">Formação</a></li>
+          <li><a href="#portifolio">Portfólio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- Seção sobre mim -->
+    <section id="about">
+      <h1>Sobre Mim</h1>
+      <p>
+        Olá! Meu nome é Paulo Gustavo Siqueira. Eu amo tecnologia em geral, mas
+        principalmente jogos online e estou sempre buscando aprender coisas
+        novas.
+      </p>
+    </section>
+
+
+    <!-- Seção sobre minha Formação -->
+    <section id="education">
+      <h1>Formação</h1>
+      <p>
+        Sou formado em Engenharia Mecânica e atualmente curso Análise e
+        Desenvolvimento de Sistemas, com conhecimentos em tecnolgias como: HTML,
+        CSS, JavaScript, Git, React, Vue, Sass, TailWind, Node, Next e MySQL.
+      </p>
+      <p><strong>Idiomas:</strong> Português e Inglês</p>
+    </section>
+
+
+    <!-- Seção de portifólio com lista de projetos que já fiz e link -->
+    <section id="portifolio">
+      <h1>Portfólio</h1>
+      <ul>
+        <li>
+          <a href="https://organizer-liard.vercel.app/">
+            <img src="img/Organizer.png" />
+            <p>Organizer</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://nike-shoes-react.vercel.app/">
+            <img src="img/NikeShoes.png" />
+            <p>Nike Shoes</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://adopet-front-end.vercel.app/">
+            <img src="img/AdoPet.png" />
+            <p>Adopet</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://secret-word-react-eight.vercel.app/">
+            <img src="img/SecretWord.png" />
+            <p>Secret World</p>
+          </a>
+        </li>
+        <li>
+          <img src="img/ControleDeEstudos.png" />
+          <a href="https://controle-para-estudo-vue.vercel.app/"
+            >Controlador de Estudo</a
+          >
+        </li>
+        <li>
+          <a href="https://easy-bank-vue.vercel.app/">
+            <img src="img/EasyBank.png" />
+            <p>EasyBank</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- Seção de contato com um formulário -->
+    <section id="contact">
+      <h1>Contato</h1>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+
+    <!-- Link para o JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
